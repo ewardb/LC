@@ -16,8 +16,6 @@ public class SolutionAddDigits {
         }
         return result;
 
-
-
 //        if(result>=10){
 //            addDigits(result);
 //        }else{

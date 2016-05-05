@@ -25,6 +25,17 @@ public class Test1{
         Base base = new Son();
         base.method();
 //        base.methodB();
+        String x = "fmn";
+        String s = x.toUpperCase();
+        String y = x.replace('f','F');
+        y = y+"wxy";
+        System.out.println(y);
+
+
+
+
+
+
     }
 }
 // ==  地址的比較

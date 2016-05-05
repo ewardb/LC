@@ -9,8 +9,8 @@ import java.util.Stack;
  */
 //                       1
 //                    2      3
-//                4        6    7
-//                  9          13
+//                 4       6    7
+//                   9        13
 //     1 3 7 13 6 2 4 9
 //     9 4 2 6 13 7 3 1
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    后续遍历  左右根！
