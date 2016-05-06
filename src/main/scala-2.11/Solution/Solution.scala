@@ -31,11 +31,6 @@ object Solution {
 
 
 
-
-
-
-
-
     List(1)
   }
 

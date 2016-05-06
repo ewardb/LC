@@ -28,7 +28,6 @@ public class SolutionTopKFrequent {
             if(list[pos] !=null){
                 res.addAll(list[pos]);
             }
-
         }
 
          for(int i=0 ;i<k;i++){
