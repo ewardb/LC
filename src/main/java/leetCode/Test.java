@@ -5,11 +5,6 @@ package leetCode;
  */
 public class Test {
     public static void main(String [] args){
-        System.out.println("abc");
-//        int s[] = {1,2,3,4,5};
-//        for(int i : s){
-//            System.out.println(i);
-//        }
         int s = 5 ^3;
         System.out.println(s);
         int i= 1;

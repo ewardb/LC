@@ -18,7 +18,6 @@ public class Nonrecursive {
         while(!stack.empty()){
             TreeNode r = stack.pop();
             list.add(r.val);
-
             if(r.right !=null){
                 stack.push(r.right);
             }
@@ -26,11 +25,8 @@ public class Nonrecursive {
                 stack.push(r.left);
             }
         }
-
         return list;
     }
-
-
 
 
     public List<Integer> inorderTraversal(TreeNode root){  // 左 根 右

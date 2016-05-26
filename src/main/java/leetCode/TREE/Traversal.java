@@ -1,7 +1,9 @@
 package leetCode.TREE;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Created by wq on 16-5-5.
@@ -18,7 +20,7 @@ public class Traversal {
     List<Integer> preorderlist = new ArrayList<>();
     List<Integer> inorderlist = new ArrayList<>();
     List<Integer> postorderlist = new ArrayList<>();
-
+    List<Integer> traversallist = new ArrayList<>();
     public List<Integer> preorderTraversal(TreeNode root) {
         if (root != null) {
             preorderlist.add(root.val);
@@ -62,6 +64,17 @@ public class Traversal {
         return postorderlist;
     }
 
+
+
+
+    public List<Integer> traversal(TreeNode root) {
+        if(root == null) return traversallist;
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        if(root !=null){
+
+        }
+        return traversallist;
+    }
 
     public static void main(String args[]) {
         Traversal aa = new Traversal();

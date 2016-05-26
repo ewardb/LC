@@ -12,16 +12,13 @@ public class SoluLongestConsecutive {
         if(null == nums || nums.length == 0){
             return 0;
         }
-        for(int i = 0; i<nums.length ; i++){
+        for(int i = 0; i<nums.length;i++){
             map.put(nums[i],false);
         }
-
         for(int i = 0; i<nums.length;i++){
             int v=nums[i];
             map.get(nums[i]);
         }
-
-
         return 0;
     }
 }
