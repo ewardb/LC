@@ -16,14 +16,14 @@ class Huffman {
    * @return List<Node>集合
    */
   def getListFromString(str:String,reg:String):List[Node] = {
-    val list:scala.collection.mutable.LinkedHashSet[Node] = new mutable.LinkedHashSet
-    val map:scala.collection.mutable.HashMap[String,Int] = new HashMap[String,Int]()
+    val list:scala.collection.mutable.LinkedHashSet[Node] = new mutable.LinkedHashSet;
+    val map:scala.collection.mutable.HashMap[String,Int] = new HashMap[String,Int]();
     str.split(reg).foreach{
-      i=> val hz:Int = map.getOrElse(i,0)+1
-        map+=(i->hz)
+      i=> val hz:Int = map.getOrElse(i,0)+1;
+        map+=(i->hz);
     }
     for((k,v)<-map){
-      list+=(new Node(k,v))
+      list+=(new Node(k,v));
     }
     println("構建Hz  List《Node》完成！！！！！！")
     list.toList
