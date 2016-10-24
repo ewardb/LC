@@ -1,10 +1,14 @@
 package niuke;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by wq on 16-4-28.
  */
 class Base {
     public void method(){
+        new HashMap<String,String>();
         System.out.println("Base");
 
     }

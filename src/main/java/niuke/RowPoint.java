@@ -411,9 +411,6 @@ public class RowPoint {
      * @param list2
      * @return
      */
-
-
-
     public static ListNode Merge(ListNode list1,ListNode list2) {
         if(list1 == null && list2 ==null){
             return null;
