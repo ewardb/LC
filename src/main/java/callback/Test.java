@@ -8,5 +8,6 @@ public class Test {
         Li li = new Li();
         Wang wa = new Wang(li);
         wa.askQuestion("1+1=");
+
     }
 }
